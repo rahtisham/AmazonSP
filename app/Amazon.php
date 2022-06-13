@@ -32,6 +32,8 @@ class Amazon extends Model
         $this->getToken();
         $this->getSessionToken();
     }
+
+    
     public function getToken($RDToken = '')
     {
         dd('svf');
